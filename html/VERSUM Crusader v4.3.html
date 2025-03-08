@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>TechPoint</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="https://i.ibb.co/ywh3r8c/2025-02-08-131718-removebg-preview.png">
+        <h1 class="name">TechPoint</h1>
+        <nav class="menu">
+            <a href="index.html">Головна</a>
+            <a href="contacts.html">Контакти</a>
+            <a href="info.html">Про Компанію</a>
+            <a href="#system">Системні Блоки</a>
+         </nav>
+    </header>
+    <main>
+        <div class="products">
+            <div class="product">
+                <div class="product-info">
+                    <p class="product-title">VERSUM Crusader v4.3</p>
+                    <p class="product-price">33 637 грн</p>
+                    <img src="https://i.postimg.cc/VkrFZVWv/gamemax-edge-1-669x669.png">
+                <div class="photo">
+                    <img src="https://i.postimg.cc/RhkDk9Qm/gamemax-edge-2-669x669.png" >
+                    <img src="https://i.postimg.cc/3rzr8vt8/gamemax-edge-3-669x669.png">
+                    <img src="https://i.postimg.cc/8k7PgHBX/gamemax-edge-4-669x669.png">
+                </div>
+                    <a href="javascript:void(0)" id="button-cart-add" class="button">
+                        <span class="add-to-cart">Додати у кошик</span>
+                    </a>
+                </div>
+                
+                <div class="char-container">
+                    <div class="product-stat">
+                        <div class="stat-item">
+                            <span class="icon-wrap">
+                                <img src="https://versum.ua/image/catalog/refresh/icon-1.svg" alt="Процесор">
+                            </span>
+                            <div class="stat-content">
+                                <div class="stat-min">Процесор</div>
+                                <div class="stat-text">Ryzen 5 5600</div>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <span class="icon-wrap">
+                                <img src="https://versum.ua/image/catalog/refresh/icon-2.svg" alt="Кулер">
+                            </span>
+                            <div class="stat-content">
+                                <div class="stat-min">Кулер</div>
+                                <div class="stat-text">AMD Wraith Stealth</div>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <span class="icon-wrap">
+                                <img src="https://versum.ua/image/catalog/refresh/icon-4.svg" alt="Оперативна пам’ять">
+                            </span>
+                            <div class="stat-content">
+                                <div class="stat-min">Оперативна пам’ять</div>
+                                <div class="stat-text">16Gb (2x8) DDR4 3200Mhz G.Skill Aegis</div>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <span class="icon-wrap">
+                                <img src="https://versum.ua/image/catalog/refresh/icon-5.svg" alt="Відеокарта">
+                            </span>
+                            <div class="stat-content">
+                                <div class="stat-min">Відеокарта</div>
+                                <div class="stat-text">RTX3060 12GB Gigabyte WindForce OC</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="contacts">
+            <div class="system block">
+                <h5>Системні блоки</h5>
+                <ul class="systemblock">
+                    <li>Всі</li>
+                    <li>Gaming Series</li>
+                    <li>Office Series</li>
+                </ul>
+            </div>
+            <div class="information">
+                <h5>Інформація</h5>
+                <ul class="kompletst">
+                    <li>Про компанію</li>
+                    <li>Умови оплати</li>
+                    <li>Умови доставки</li>
+                </ul>
+            </div>
+            <div class="kontakt">
+                <h5 id="contac" >Контакти</h5>
+                <ul class="kontakts">
+                    <li>Сервісний центр/Магазин:</li>
+                    <li>Україна, м. Київ</li>
+                    <li>Пн.-Пт. з 09:00 до 19:00</li>
+                    <li>Сб. з 10:00 до 18:00</li>
+                    <li>+38000 000 00 00</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div id="cart-container" class="cart">
+        <div class="cart-header">
+            <span>Кошик</span>
+            <span class="cart-close" id="cart-close">&times;</span>
+        </div>
+        <div class="cart-items" id="cart-items">
+        </div>
+        <div class="cart-footer">
+            <p class="cart-total">Загальна сума: <span id="cart-total">0</span> грн</p>
+            <button class="cart-checkout">Оформити замовлення</button>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
